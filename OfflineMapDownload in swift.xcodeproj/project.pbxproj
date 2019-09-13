@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3ED8EC2E667C55598F5381 /* Pods_OfflineMapDownload_in_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5E96CE16E427EE9DD3F265 /* Pods_OfflineMapDownload_in_swiftTests.framework */; };
+		4FDA08A721F9E21300EC3738 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA08A621F9E21300EC3738 /* AppDelegate.swift */; };
+		4FDA08A921F9E21300EC3738 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA08A821F9E21300EC3738 /* ViewController.swift */; };
+		4FDA08AC21F9E21300EC3738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA08AA21F9E21300EC3738 /* Main.storyboard */; };
+		4FDA08AE21F9E21500EC3738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA08AD21F9E21500EC3738 /* Assets.xcassets */; };
+		4FDA08B121F9E21500EC3738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA08AF21F9E21500EC3738 /* LaunchScreen.storyboard */; };
+		4FDA08BC21F9E21500EC3738 /* OfflineMapDownload_in_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA08BB21F9E21500EC3738 /* OfflineMapDownload_in_swiftTests.swift */; };
+		4FDA08C721F9E21500EC3738 /* OfflineMapDownload_in_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA08C621F9E21500EC3738 /* OfflineMapDownload_in_swiftUITests.swift */; };
+		632AE6D97EB8D82F05BDC0D0 /* Pods_OfflineMapDownload_in_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92E5058A80397233F1908A7F /* Pods_OfflineMapDownload_in_swift.framework */; };
+		DDF237CF2A6B64C5A7E5BCB4 /* Pods_OfflineMapDownload_in_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07BBA54FCEEA848E03DBAD83 /* Pods_OfflineMapDownload_in_swiftUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FDA08B821F9E21500EC3738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FDA089B21F9E21300EC3738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDA08A221F9E21300EC3738;
+			remoteInfo = "OfflineMapDownload in swift";
+		};
+		4FDA08C321F9E21500EC3738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FDA089B21F9E21300EC3738 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FDA08A221F9E21300EC3738;
+			remoteInfo = "OfflineMapDownload in swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07BBA54FCEEA848E03DBAD83 /* Pods_OfflineMapDownload_in_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfflineMapDownload_in_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C31F32668C63CDCF7EC52E7 /* Pods-OfflineMapDownload in swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineMapDownload in swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineMapDownload in swiftTests/Pods-OfflineMapDownload in swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B5E96CE16E427EE9DD3F265 /* Pods_OfflineMapDownload_in_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfflineMapDownload_in_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1CDA0521FB04BD003AA564 /* Pods_OfflineMapDownload_in_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OfflineMapDownload_in_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F1CDA0721FB04BD003AA564 /* Pods_OfflineMapDownload_in_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OfflineMapDownload_in_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5B9BAB21FAECA3002A7F90 /* Pods_OfflineMapDownload_in_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OfflineMapDownload_in_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5B9BAD21FAECA3002A7F90 /* Pods_OfflineMapDownload_in_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_OfflineMapDownload_in_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDA08A321F9E21300EC3738 /* OfflineMapDownload in swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OfflineMapDownload in swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDA08A621F9E21300EC3738 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4FDA08A821F9E21300EC3738 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FDA08AB21F9E21300EC3738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FDA08AD21F9E21500EC3738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FDA08B021F9E21500EC3738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FDA08B221F9E21500EC3738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDA08B721F9E21500EC3738 /* OfflineMapDownload in swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OfflineMapDownload in swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDA08BB21F9E21500EC3738 /* OfflineMapDownload_in_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineMapDownload_in_swiftTests.swift; sourceTree = "<group>"; };
+		4FDA08BD21F9E21500EC3738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDA08C221F9E21500EC3738 /* OfflineMapDownload in swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OfflineMapDownload in swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FDA08C621F9E21500EC3738 /* OfflineMapDownload_in_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineMapDownload_in_swiftUITests.swift; sourceTree = "<group>"; };
+		4FDA08C821F9E21500EC3738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578D394B3C115350CB54177D /* Pods-OfflineMapDownload in swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineMapDownload in swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineMapDownload in swiftUITests/Pods-OfflineMapDownload in swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C91C76A302CCE9B642EEC09 /* Pods-OfflineMapDownload in swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineMapDownload in swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineMapDownload in swiftTests/Pods-OfflineMapDownload in swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BC4571F9CBB75068AC579BB /* Pods-OfflineMapDownload in swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineMapDownload in swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineMapDownload in swift/Pods-OfflineMapDownload in swift.debug.xcconfig"; sourceTree = "<group>"; };
+		92E5058A80397233F1908A7F /* Pods_OfflineMapDownload_in_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OfflineMapDownload_in_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9102F4E80A5008995EA605 /* Pods-OfflineMapDownload in swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineMapDownload in swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineMapDownload in swift/Pods-OfflineMapDownload in swift.release.xcconfig"; sourceTree = "<group>"; };
+		F0C463FF0784E75D29E654BB /* Pods-OfflineMapDownload in swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OfflineMapDownload in swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OfflineMapDownload in swiftUITests/Pods-OfflineMapDownload in swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FDA08A021F9E21300EC3738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632AE6D97EB8D82F05BDC0D0 /* Pods_OfflineMapDownload_in_swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDA08B421F9E21500EC3738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B3ED8EC2E667C55598F5381 /* Pods_OfflineMapDownload_in_swiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDA08BF21F9E21500EC3738 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF237CF2A6B64C5A7E5BCB4 /* Pods_OfflineMapDownload_in_swiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FDA089A21F9E21300EC3738 = {
+			isa = PBXGroup;
+			children = (
+				4FDA08A521F9E21300EC3738 /* OfflineMapDownload in swift */,
+				4FDA08BA21F9E21500EC3738 /* OfflineMapDownload in swiftTests */,
+				4FDA08C521F9E21500EC3738 /* OfflineMapDownload in swiftUITests */,
+				4FDA08A421F9E21300EC3738 /* Products */,
+				6E6721B99B13734E26E3987D /* Pods */,
+				A4E511B11F98FCC93ED3C395 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4FDA08A421F9E21300EC3738 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FDA08A321F9E21300EC3738 /* OfflineMapDownload in swift.app */,
+				4FDA08B721F9E21500EC3738 /* OfflineMapDownload in swiftTests.xctest */,
+				4FDA08C221F9E21500EC3738 /* OfflineMapDownload in swiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FDA08A521F9E21300EC3738 /* OfflineMapDownload in swift */ = {
+			isa = PBXGroup;
+			children = (
+				4FDA08A621F9E21300EC3738 /* AppDelegate.swift */,
+				4FDA08A821F9E21300EC3738 /* ViewController.swift */,
+				4FDA08AA21F9E21300EC3738 /* Main.storyboard */,
+				4FDA08AD21F9E21500EC3738 /* Assets.xcassets */,
+				4FDA08AF21F9E21500EC3738 /* LaunchScreen.storyboard */,
+				4FDA08B221F9E21500EC3738 /* Info.plist */,
+			);
+			path = "OfflineMapDownload in swift";
+			sourceTree = "<group>";
+		};
+		4FDA08BA21F9E21500EC3738 /* OfflineMapDownload in swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FDA08BB21F9E21500EC3738 /* OfflineMapDownload_in_swiftTests.swift */,
+				4FDA08BD21F9E21500EC3738 /* Info.plist */,
+			);
+			path = "OfflineMapDownload in swiftTests";
+			sourceTree = "<group>";
+		};
+		4FDA08C521F9E21500EC3738 /* OfflineMapDownload in swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FDA08C621F9E21500EC3738 /* OfflineMapDownload_in_swiftUITests.swift */,
+				4FDA08C821F9E21500EC3738 /* Info.plist */,
+			);
+			path = "OfflineMapDownload in swiftUITests";
+			sourceTree = "<group>";
+		};
+		6E6721B99B13734E26E3987D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BC4571F9CBB75068AC579BB /* Pods-OfflineMapDownload in swift.debug.xcconfig */,
+				DF9102F4E80A5008995EA605 /* Pods-OfflineMapDownload in swift.release.xcconfig */,
+				5C91C76A302CCE9B642EEC09 /* Pods-OfflineMapDownload in swiftTests.debug.xcconfig */,
+				2C31F32668C63CDCF7EC52E7 /* Pods-OfflineMapDownload in swiftTests.release.xcconfig */,
+				578D394B3C115350CB54177D /* Pods-OfflineMapDownload in swiftUITests.debug.xcconfig */,
+				F0C463FF0784E75D29E654BB /* Pods-OfflineMapDownload in swiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4E511B11F98FCC93ED3C395 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F1CDA0521FB04BD003AA564 /* Pods_OfflineMapDownload_in_swiftTests.framework */,
+				4F1CDA0721FB04BD003AA564 /* Pods_OfflineMapDownload_in_swiftUITests.framework */,
+				4F5B9BAB21FAECA3002A7F90 /* Pods_OfflineMapDownload_in_swiftTests.framework */,
+				4F5B9BAD21FAECA3002A7F90 /* Pods_OfflineMapDownload_in_swiftUITests.framework */,
+				92E5058A80397233F1908A7F /* Pods_OfflineMapDownload_in_swift.framework */,
+				4B5E96CE16E427EE9DD3F265 /* Pods_OfflineMapDownload_in_swiftTests.framework */,
+				07BBA54FCEEA848E03DBAD83 /* Pods_OfflineMapDownload_in_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FDA08A221F9E21300EC3738 /* OfflineMapDownload in swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDA08CB21F9E21500EC3738 /* Build configuration list for PBXNativeTarget "OfflineMapDownload in swift" */;
+			buildPhases = (
+				B2C7B56076580260BAD7DC63 /* [CP] Check Pods Manifest.lock */,
+				4FDA089F21F9E21300EC3738 /* Sources */,
+				4FDA08A021F9E21300EC3738 /* Frameworks */,
+				4FDA08A121F9E21300EC3738 /* Resources */,
+				17E7E5DC8DF66A3E10E2A9ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OfflineMapDownload in swift";
+			productName = "OfflineMapDownload in swift";
+			productReference = 4FDA08A321F9E21300EC3738 /* OfflineMapDownload in swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FDA08B621F9E21500EC3738 /* OfflineMapDownload in swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDA08CE21F9E21500EC3738 /* Build configuration list for PBXNativeTarget "OfflineMapDownload in swiftTests" */;
+			buildPhases = (
+				5ECB92E84FA96EE00C952601 /* [CP] Check Pods Manifest.lock */,
+				4FDA08B321F9E21500EC3738 /* Sources */,
+				4FDA08B421F9E21500EC3738 /* Frameworks */,
+				4FDA08B521F9E21500EC3738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FDA08B921F9E21500EC3738 /* PBXTargetDependency */,
+			);
+			name = "OfflineMapDownload in swiftTests";
+			productName = "OfflineMapDownload in swiftTests";
+			productReference = 4FDA08B721F9E21500EC3738 /* OfflineMapDownload in swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FDA08C121F9E21500EC3738 /* OfflineMapDownload in swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FDA08D121F9E21500EC3738 /* Build configuration list for PBXNativeTarget "OfflineMapDownload in swiftUITests" */;
+			buildPhases = (
+				C810F2B7EE19AECEB00D57B7 /* [CP] Check Pods Manifest.lock */,
+				4FDA08BE21F9E21500EC3738 /* Sources */,
+				4FDA08BF21F9E21500EC3738 /* Frameworks */,
+				4FDA08C021F9E21500EC3738 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FDA08C421F9E21500EC3738 /* PBXTargetDependency */,
+			);
+			name = "OfflineMapDownload in swiftUITests";
+			productName = "OfflineMapDownload in swiftUITests";
+			productReference = 4FDA08C221F9E21500EC3738 /* OfflineMapDownload in swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FDA089B21F9E21300EC3738 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = PC;
+				TargetAttributes = {
+					4FDA08A221F9E21300EC3738 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4FDA08B621F9E21500EC3738 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4FDA08A221F9E21300EC3738;
+					};
+					4FDA08C121F9E21500EC3738 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4FDA08A221F9E21300EC3738;
+					};
+				};
+			};
+			buildConfigurationList = 4FDA089E21F9E21300EC3738 /* Build configuration list for PBXProject "OfflineMapDownload in swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FDA089A21F9E21300EC3738;
+			productRefGroup = 4FDA08A421F9E21300EC3738 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FDA08A221F9E21300EC3738 /* OfflineMapDownload in swift */,
+				4FDA08B621F9E21500EC3738 /* OfflineMapDownload in swiftTests */,
+				4FDA08C121F9E21500EC3738 /* OfflineMapDownload in swiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FDA08A121F9E21300EC3738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDA08B121F9E21500EC3738 /* LaunchScreen.storyboard in Resources */,
+				4FDA08AE21F9E21500EC3738 /* Assets.xcassets in Resources */,
+				4FDA08AC21F9E21300EC3738 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDA08B521F9E21500EC3738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDA08C021F9E21500EC3738 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17E7E5DC8DF66A3E10E2A9ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OfflineMapDownload in swift/Pods-OfflineMapDownload in swift-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OfflineMapDownload in swift/Pods-OfflineMapDownload in swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5ECB92E84FA96EE00C952601 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfflineMapDownload in swiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2C7B56076580260BAD7DC63 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfflineMapDownload in swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C810F2B7EE19AECEB00D57B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OfflineMapDownload in swiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FDA089F21F9E21300EC3738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDA08A921F9E21300EC3738 /* ViewController.swift in Sources */,
+				4FDA08A721F9E21300EC3738 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDA08B321F9E21500EC3738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDA08BC21F9E21500EC3738 /* OfflineMapDownload_in_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FDA08BE21F9E21500EC3738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FDA08C721F9E21500EC3738 /* OfflineMapDownload_in_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FDA08B921F9E21500EC3738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FDA08A221F9E21300EC3738 /* OfflineMapDownload in swift */;
+			targetProxy = 4FDA08B821F9E21500EC3738 /* PBXContainerItemProxy */;
+		};
+		4FDA08C421F9E21500EC3738 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FDA08A221F9E21300EC3738 /* OfflineMapDownload in swift */;
+			targetProxy = 4FDA08C321F9E21500EC3738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FDA08AA21F9E21300EC3738 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FDA08AB21F9E21300EC3738 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FDA08AF21F9E21500EC3738 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FDA08B021F9E21500EC3738 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FDA08C921F9E21500EC3738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4FDA08CA21F9E21500EC3738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FDA08CC21F9E21500EC3738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BC4571F9CBB75068AC579BB /* Pods-OfflineMapDownload in swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRJ7A3W5NN;
+				INFOPLIST_FILE = "OfflineMapDownload in swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.OfflineMapDownload-in-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FDA08CD21F9E21500EC3738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9102F4E80A5008995EA605 /* Pods-OfflineMapDownload in swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JRJ7A3W5NN;
+				INFOPLIST_FILE = "OfflineMapDownload in swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.OfflineMapDownload-in-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4FDA08CF21F9E21500EC3738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C91C76A302CCE9B642EEC09 /* Pods-OfflineMapDownload in swiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OfflineMapDownload in swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.OfflineMapDownload-in-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineMapDownload in swift.app/OfflineMapDownload in swift";
+			};
+			name = Debug;
+		};
+		4FDA08D021F9E21500EC3738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C31F32668C63CDCF7EC52E7 /* Pods-OfflineMapDownload in swiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OfflineMapDownload in swiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.OfflineMapDownload-in-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OfflineMapDownload in swift.app/OfflineMapDownload in swift";
+			};
+			name = Release;
+		};
+		4FDA08D221F9E21500EC3738 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578D394B3C115350CB54177D /* Pods-OfflineMapDownload in swiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OfflineMapDownload in swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.OfflineMapDownload-in-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OfflineMapDownload in swift";
+			};
+			name = Debug;
+		};
+		4FDA08D321F9E21500EC3738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C463FF0784E75D29E654BB /* Pods-OfflineMapDownload in swiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "OfflineMapDownload in swiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "demo.OfflineMapDownload-in-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "OfflineMapDownload in swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FDA089E21F9E21300EC3738 /* Build configuration list for PBXProject "OfflineMapDownload in swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDA08C921F9E21500EC3738 /* Debug */,
+				4FDA08CA21F9E21500EC3738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDA08CB21F9E21500EC3738 /* Build configuration list for PBXNativeTarget "OfflineMapDownload in swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDA08CC21F9E21500EC3738 /* Debug */,
+				4FDA08CD21F9E21500EC3738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDA08CE21F9E21500EC3738 /* Build configuration list for PBXNativeTarget "OfflineMapDownload in swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDA08CF21F9E21500EC3738 /* Debug */,
+				4FDA08D021F9E21500EC3738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FDA08D121F9E21500EC3738 /* Build configuration list for PBXNativeTarget "OfflineMapDownload in swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FDA08D221F9E21500EC3738 /* Debug */,
+				4FDA08D321F9E21500EC3738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FDA089B21F9E21300EC3738 /* Project object */;
+}
